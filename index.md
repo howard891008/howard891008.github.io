@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<html><head>
+    <meta charset="utf-8">
+    <title>PeterScarf's website</title>
+    <link rel="stylesheet" type="text/css" href="styles1.css">  
+    <script>
+      function startTime(){
+        var today = new Date();
+        document.getElementById("clock").innerHTML = today.toLocaleDateString();
+        document.getElementById("clock").innerHTML +=today.toLocaleTimeString();
+        setTimeout(startTime, 100);
+      }
+      startTime();
+    </script>
+  </head>
+  <body onload="startTime()">
+    <h1>HELLOWORLD</h1><h1>
+      <p div="" id="clock">2020/1/13下午6:21:32</p>
+    </h1><h2 align="left">Selfintroduction</h2>
+      <h2><img src="selg.jpg" height="200"></h2>
 
-You can use the [editor on GitHub](https://github.com/howard891008/howard891008.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <h3 align="left">Interests</h3>
+    <ul type="dics"><p align="center">
+        </p><li>reading</li>
+        <li>travel</li>
+        <li>listen music</li>
+    <p></p></ul>
+    
+    <h3 align="left">the following are my basic data</h3>
+    <hr color="gray" align="left" width="30%" size="5">
+    <h4><table border="2" align="left">
+        <tbody>
+            <tr>
+                <th><font color="yellow"> major department </font></th>
+                <th><font color="yellow">number</font></th>
+                <th><font color="yellow">name</font></th>
+            </tr>
+            <tr>
+                <td><font color="yellow">NTHU CS</font></td>
+                <td><font color="yellow">108062126</font></td>
+                <td><font color="yellow">Tzu-Chun, Tu</font></td>
+            </tr>
+        </tbody>
+    </table></h4>
+    <h3 align="right"><a href="https://www.facebook.com/profile.php?id=100038335429545" target="_blank" data-content="https://www.facebook.com/profile.php?id=100038335429545" data-type="external" rel="nofollow noopener noreferrer" id="comp-ir243rcp0imagelink" class="lb1imageItemlink"><wix-image style="width:25px;height:25px;position:absolute" data-has-bg-scroll-effect="" data-image-info="{&quot;imageData&quot;:{&quot;type&quot;:&quot;Image&quot;,&quot;id&quot;:&quot;dataItem-ir243rcq1&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;mua1n&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;2.0&quot;,&quot;isHidden&quot;:false},&quot;title&quot;:&quot;White Facebook Icon&quot;,&quot;uri&quot;:&quot;23fd2a2be53141ed810f4d3dcdcd01fa.png&quot;,&quot;description&quot;:&quot;&quot;,&quot;width&quot;:200,&quot;height&quot;:200,&quot;alt&quot;:&quot;White Facebook Icon&quot;,&quot;link&quot;:{&quot;type&quot;:&quot;ExternalLink&quot;,&quot;id&quot;:&quot;dataItem-ir243rcq2&quot;,&quot;metaData&quot;:{&quot;pageId&quot;:&quot;mua1n&quot;,&quot;isPreset&quot;:true,&quot;schemaVersion&quot;:&quot;1.0&quot;,&quot;isHidden&quot;:false},&quot;url&quot;:&quot;http://www.facebook.com/wix&quot;,&quot;target&quot;:&quot;_blank&quot;},&quot;displayMode&quot;:&quot;fill&quot;},&quot;containerId&quot;:&quot;comp-ir243rcp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}" data-is-svg="false" id="comp-ir243rcp0imageimage" class="lb1imageItemimage" data-src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.webp"><img id="comp-ir243rcp0imageimageimage" alt="White Facebook Icon" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.webp" data-src="" style="width: 25px; height: 25px; object-fit: cover;"></wix-image></a>
+    <img id="comp-ir243rcp0imageimageimage" alt="White Facebook Icon" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_38,h_38,al_c,q_85,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.webp" data-src="" style="width: 25px; height: 25px; object-fit: cover;"></h3>
+  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/howard891008/howard891008.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body></html>
